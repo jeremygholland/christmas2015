@@ -53,7 +53,7 @@ h3 {
 img {
   border-radius: 2em; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (min-width: 300px) {
   .fa-volume-up, .fa-volume-off {
     display: none; }
 
@@ -75,7 +75,7 @@ img {
     width: 400px; }
     li:nth-child(5) img {
       max-width: 100%; } }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 780px) and (min-width: 481px) {
   .fa-volume-up, .fa-volume-off {
     display: none; }
 
