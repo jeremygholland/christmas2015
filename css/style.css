@@ -1,5 +1,19 @@
-p {
-  color: black;
-  font-weight: 200; }
+img {
+  opacity: .6;
+  height: 100%; }
+
+.title {
+  font-size: 4vw;
+  font-weight: 100; }
+
+li {
+  height: 600px; }
+
+h3 {
+  color: #e0e0e0;
+  margin-top: 200px; }
+
+.slides, .slider, img {
+  border-radius: 2em; }
 
 /*# sourceMappingURL=style.css.map */
