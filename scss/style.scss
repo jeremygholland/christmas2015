@@ -4,9 +4,9 @@ body {
 
 i {
     color: white;
-	top: 0;
-	right: 0;
-	margin-right: 20px;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
     position: absolute;
     z-index: 500;
 }
@@ -81,11 +81,40 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-	.fa-volume-up, .fa-volume-off {
-    display: none;
+    .fa-volume-up,
+    .fa-volume-off {
+        display: none;
+    }
+    .title {
+        display: none;
+    }
+    h3 {
+        font-size: 8vw;
+        color: #fafafa;
+        font-weight: 400;
+        font-family: helvetica;
+    }
+    li {
+        width: 80vw;
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    li:nth-child(5) {
+        width: 400px;
+        img {
+            max-width: 100%;
+        }
+    }
 }
-.title {
-    display: none;
+@media screen and (max-width: 780px) {
+    .fa-volume-up,
+    .fa-volume-off {
+        display: none;
+    }
+    .title {
+        display: none;
     }
     h3 {
         font-size: 8vw;

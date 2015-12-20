@@ -54,7 +54,32 @@ img {
   border-radius: 2em; }
 
 @media screen and (max-width: 480px) {
-  .fa-volume-up, .fa-volume-off {
+  .fa-volume-up,
+  .fa-volume-off {
+    display: none; }
+
+  .title {
+    display: none; }
+
+  h3 {
+    font-size: 8vw;
+    color: #fafafa;
+    font-weight: 400;
+    font-family: helvetica; }
+
+  li {
+    width: 80vw; }
+    li img {
+      max-width: 100%;
+      width: 100%; }
+
+  li:nth-child(5) {
+    width: 400px; }
+    li:nth-child(5) img {
+      max-width: 100%; } }
+@media screen and (max-width: 780px) {
+  .fa-volume-up,
+  .fa-volume-off {
     display: none; }
 
   .title {
