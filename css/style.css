@@ -55,11 +55,7 @@ img {
 
 @media screen and (max-width: 480px) {
   i {
-<<<<<<< HEAD
     display: none; }
-=======
-    display: none;}
->>>>>>> 7446e7546f92be3ad32f56bb4863cf1c04dd7627
 
   .title {
     display: none; }
@@ -73,8 +69,7 @@ img {
   li {
     width: 80vw; }
     li img {
-      max-width: 100%;
-      width: 100%; }
+      max-width: 100%; }
 
   li:nth-child(5) {
     width: 400px; }
