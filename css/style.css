@@ -55,7 +55,12 @@ img {
 
 @media screen and (max-width: 480px) {
   i {
-    display: none; }
+    color: white;
+    position: 0 auto;
+    margin-left: 80vw;
+    margin-top: 1.5vh;
+    position: absolute;
+    z-index: 500; }
 
   .title {
     display: none; }
